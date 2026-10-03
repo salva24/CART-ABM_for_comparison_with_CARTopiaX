@@ -137,6 +137,14 @@ The simulation creates output files in a "results" directory (which is created a
 - `PM1_[time].xml` - VTK visualization data for cells (optional)
 - `HM1_[time].xml` - VTK visualization data for microenvironment (optional)
 
+### Plotting
+
+`plot_output.py` reads `out/datos_finales.csv` and saves the plots as images in the `plots/` folder (requires `pandas` and `matplotlib`):
+
+```
+python plot_output.py
+```
+
 Additionally, the project includes an `/outcomes` folder containing example output files and documentation for visualization and analysis. This folder provides researchers with sample data to understand the expected outputs and demonstrates how to visualize and interpret simulation results graphically.
 
 ## Documentation
