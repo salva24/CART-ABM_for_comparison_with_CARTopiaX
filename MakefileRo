@@ -9,8 +9,8 @@
 
 # Compiler and flags
 CXX = g++
-CXXFLAGS = -O3
-LDFLAGS = -O3 -Wall -std=c++11
+CXXFLAGS = -O3 -fopenmp
+LDFLAGS = -O3 -Wall -std=c++11 -fopenmp
 
 # Build directory for all output files
 BUILD_DIR = build
